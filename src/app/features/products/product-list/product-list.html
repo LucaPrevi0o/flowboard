@@ -1,4 +1,0 @@
-@for (p of products | async track p.id) {
-  <app-product-card [product]="p" (add)="onAdd($event)">
-  </app-product-card>
-}
